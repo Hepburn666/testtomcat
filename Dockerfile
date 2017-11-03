@@ -50,4 +50,4 @@ ADD run.sh /run.sh
 RUN chmod +x /*.sh
 
 EXPOSE 8080
-CMD ["/run.sh"]
+CMD ["run.sh"]
